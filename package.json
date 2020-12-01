@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
+    "build": "CI= node index.js build",
+    "test": "node index.js test",
+    "eject": "node index.js eject"
   },
   "keywords": [],
   "author": "",
